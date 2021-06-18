@@ -13,7 +13,7 @@ pairs = [
     ],
      [
         r"(.*) your name ?",
-        ["My name is thecleverprogrammer, but you can just call me robot and I'm a chatbot .",]
+        ["My name is techprogrammer, but you can just call me robot and I'm a chatbot .",]
     ],
     [
         r"how are you (.*) ?",
@@ -67,7 +67,7 @@ pairs = [
 ]
 
 #default message at the start of chat
-print("Hi, I'm thecleverprogrammer and I like to chat\nPlease type lowercase English language to start a conversation. Type quit to leave ")
+print("Hi, I'm techprogrammer and I like to chat\nPlease type lowercase English language to start a conversation. Type quit to leave ")
 #Create Chat Bot
 chat = Chat(pairs, reflections)
 #Start conversation
